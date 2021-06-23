@@ -34,7 +34,7 @@ const Auth = () => {
             `
         };
 
-        fetch('http://localhost:8000/graphql', {
+        fetch('https://mizu-water-tracking-backend.herokuapp.com/graphql', {
             method: "POST",
             body: JSON.stringify(requestBody),
             headers: {
@@ -81,7 +81,7 @@ const Auth = () => {
             `
         };
 
-        fetch('http://localhost:8000/graphql', {
+        fetch('https://mizu-water-tracking-backend.herokuapp.com/graphql', {
             method: "POST",
             body: JSON.stringify(requestBody),
             headers: {
